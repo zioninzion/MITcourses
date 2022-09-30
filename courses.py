@@ -5,7 +5,7 @@ hard = [('1', 'Civil and Environmental Engineering'), ('2', 'Mechanical Engineer
 endit = ''
 seq = -1
 sequential = False
-bbbbb('q to quit')
+print('q to quit')
 print('e for easy')
 print('h for hard')
 print('s for sequential')
