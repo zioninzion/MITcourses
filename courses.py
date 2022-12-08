@@ -20,7 +20,7 @@ while endit != 'q':
     index = seq
   else:
     index = int(random.random()*len(result))
-  endit = input(result[index][0])
+  endit = input(str(result[index][0])+' ')
   print(result[index][1])
   seq += 1
   if endit == 's':
@@ -36,3 +36,4 @@ while endit != 'q':
       seq = 0
     result = hard
   print()
+print('Quitted.')
